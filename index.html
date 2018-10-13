@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Leauge of Legends </title>
+  
+  <link rel="stylesheet" href="./assets/css/reset.css">
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+ 
+  <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+
+  <body>
+      <div class="container-fluid">
+
+       
+        <div class="row">
+          <div class="col-xs-12 col-md-8">
+            <h1 class="text-center">Welcome to Summoners Rift!</h1>
+          </div>
+        </div>
+
+        
+        <div class="row">
+          <div id="characters-available" class="col-xs-12 col-md-8">
+            
+            <div id="morgana" class="character-image available-character">
+              <p class="text-center">Morgana</p>
+              <img class= "img-thumbnail center-block" src="./assets/images/morgana.jpg" alt="Morgana">
+              <p class="health text-center">560</p>
+            </div>
+            
+            <div id="Lee Sin" class="character-image available-character">
+              <p class="text-center">Lee Sin</p>
+              <img class="img-thumbnail center-block" src="./assets/images/leesin.jpg" alt="Lee Sin">
+              <p class="health text-center">570</p>
+            </div>
+            
+            <div id="orianna" class="character-image available-character">
+              <p class="text-center">Orianna</p>
+              <img class="img-thumbnail center-block" src="./assets/images/orianna.jpg" alt="Orianna">
+              <p class="health text-center">530</p>
+            </div>
+            
+            <div id="teemo" class="character-image available-character">
+              <p class="text-center">Teemo</p>
+              <img class="img-thumbnail center-block" src="./assets/images/teemo.jpg" alt="Teemo">
+              <p class="health text-center">1528</p>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="row">
+          <div class="col-xs-12 col-md-8">
+            <h3 class="text-center">Choose Your Character</h3>
+            <div id="chosen-character"></div>
+          </div>
+        </div>
+        
+
+        
+        <div class="row">
+          <div class="col-xs-12 col-md-8">
+            <h3 class="text-center">Fight Section</h3>
+            <button id="attack-btn" class="center-block" type="button" name="attack-button">Attack</button>
+            <h5 id="message" class="text-center">#game-message</h5>
+            <button class="center-block" id="restart">Restart</button>
+          </div>
+        </div>
+
+        
+        <div class="row">
+          <div class="col-xs-12 col-md-8">
+            <h3 class="text-center">Defender</h3>
+            <div id="defender-div"></div>
+          </div>
+        </div>
+
+        
+        <div class="row">
+          <div class="col-xs-12 col-md-8">
+            <h3 class="text-center">Enemies Available to Attack</h3>
+            <div id="enemies-div" class="text-center"></div>
+          </div>
+        </div>
+
+      </div>>
+
+  
+  
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./assets/javascript/game.js"></script>
+  </body>
+</html>

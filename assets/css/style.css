@@ -1,0 +1,64 @@
+body {
+  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+
+.img-thumbnail {
+
+  height: 100px;
+  width: 100px;
+}
+
+
+
+.enemy {
+
+  height: 100px;
+  width: 100px;
+}
+
+.chosen-character .img-thumbnail {
+  height: 150px;
+  width: 150px;
+}
+
+
+.defender-character .img-thumbnail {
+  height: 150px;
+  width: 150px;
+
+}
+
+.enemy-character {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+
+#morgana, #leesin, #orianna, #teemo, {
+  display: inline-block;
+  text-align: center;
+  margin-right: 1em;
+}
+
+#characters-available {
+  text-align: center;
+}
+
+#chosen-character {
+  text-align: center;
+}
+
+#defender-div {
+  text-align: center;
+}
+
+#game-message {
+	font-size: 1.5em;
+	font-weight: bold;
+    color: 	black;
+}
